@@ -7,11 +7,8 @@ pipeline {
     
     stages {
         stage('Hello') {
-            agent {
-                label 'lin'
-            }
             steps {
-                sh 'python3 new.py'
+                sh 'python new.py'
             }
         }
     }
