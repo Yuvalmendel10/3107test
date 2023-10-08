@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh 'python new.py'
+                bat 'python new.py'
             }
         }
     }
